@@ -48,6 +48,8 @@ This is a React project for my software testing class.
     npx cypress open
     ```
 
+    **Note**: Cypress might prompt you to migrate to a new version. If this happens, just follow the on-screen instructions and click the buttons to complete the migration.
+
 3. **Run Tests**: In the Cypress Test Runner, click on a test to run it.
 
 4. **Run All Tests in Headless Mode**:
