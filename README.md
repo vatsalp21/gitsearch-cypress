@@ -34,8 +34,29 @@ This is a React project for my software testing class.
 
     Open `http://localhost:3000` in your web browser if it doesn't open automatically.
 
+## Running Cypress Tests
+
+1. **Install Cypress** (if not already installed):
+
+    ```sh
+    npm install cypress --save-dev
+    ```
+
+2. **Open Cypress**:
+
+    ```sh
+    npx cypress open
+    ```
+
+3. **Run Tests**: In the Cypress Test Runner, click on a test to run it.
+
+4. **Run All Tests in Headless Mode**:
+
+    ```sh
+    npx cypress run
+    ```
+
 ### Additional Notes
 
 - **Stopping the Server**: Press `Ctrl + C` in the terminal.
 - **Common Issues**: Ensure you have the latest version of Node.js and npm. Run `npm install` again if there are missing dependencies.
-
